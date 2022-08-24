@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+}
+
+.center{
+    box-sizing: border-box;
+    width: 1280px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: gray;
+}
+.article{
+    width: 1280px;
+    margin-top: 50px;
+}

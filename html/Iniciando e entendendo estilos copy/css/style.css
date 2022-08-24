@@ -1,0 +1,16 @@
+#div1 > h2{
+    color: red;
+}
+.div2 > h2{
+    color: greenyellow;
+ }
+
+ /*
+ 
+ Difrenças entre #id e .Classe
+
+ o id devemos usar apenas 1 vez.    
+
+ e a classe pode ser usada varias vezes.
+
+ */

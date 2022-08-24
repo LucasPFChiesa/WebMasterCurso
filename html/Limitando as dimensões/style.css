@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+}
+
+.header{
+    width: 100%;
+    height: 200px;
+    background: gray;
+}
+
+.article{
+    margin:  0 auto;
+    width: 1280px;
+    height: 300px;
+    background: red;
+    /* para um design responsivo usamos o min-height min-width para
+     setar o valor minimo
+
+     e max-height max-width para o valor maximo que a janela pode ser
+     renderizada
+    */
+}

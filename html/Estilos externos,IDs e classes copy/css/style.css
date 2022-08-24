@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*
+    a prioridade 'e do elemento que esta mais expesificada quando a alteraçao 'e no mesmo elemento
+*/
+div.menu{
+    width: 600px;
+}
+.menu{
+    width: 900px;
+    background-color: rgb(255, 190, 190);
+    margin: 30px auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    /*
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    */
+}
+
+.menu > a{
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0 15px;
+    color: red;
+    border: 1px red solid ;
+    padding: 8px;
+    
+
+    /*
+    border-left: 1px;
+    border-right: 1px;
+    border-top: 1px;
+    border-bottom: 3px;
+    border-color: red;
+    border-style: solid;
+    */
+}
