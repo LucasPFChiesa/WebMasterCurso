@@ -1,0 +1,22 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html,body{
+	height: 100%;
+}
+
+table{
+	width: 900px;
+	margin: 0 auto;
+	border-collapse: collapse;
+}
+
+table tr td{
+	height: 30px;
+	vertical-align: middle;
+	background-color: rgba(71, 71, 71, 0.2);
+	border: 3px solid black;
+}
+

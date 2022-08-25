@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+}
+
+.center{
+    box-sizing: content-box;
+    width: 1280px;
+    margin: 0 auto;
+    background-color: gray;
+}
+.article{
+    box-sizing: border-box;
+    border: 5px solid rgba(0, 0, 0, 0.074);
+    vertical-align: top;
+    margin-right: -4px;
+    display: inline-block;
+    width: 640px;
+}
