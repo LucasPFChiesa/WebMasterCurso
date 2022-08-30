@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    
+}
+
+ul{
+    list-style-position: inside;
+}
+
+ul li:nth-of-type(2){
+    color: red;
+}
+
+ul li:nth-child(3){
+    color: red;
+}

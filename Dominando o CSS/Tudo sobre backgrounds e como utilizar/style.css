@@ -13,7 +13,7 @@ html,body{
 	margin: 0 auto;
 
 	background-color: rgba(0, 0, 0, 0.4);
-	background-image: url('imagens/imagem.jpg');
+	background-image: url('imagens/imagem.jpg');    
     background-size: 300px 200px;
     background-repeat: repeat-y;/* no-repeat repeat-x repeat-y*/
 

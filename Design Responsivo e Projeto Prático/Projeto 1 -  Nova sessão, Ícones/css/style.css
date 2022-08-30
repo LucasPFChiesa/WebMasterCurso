@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+.center{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    width: 100%;
+    height: 60px;
+    background-color: darkblue;
+}
+
+.header img{
+    margin: 19px;
+}
+
+.container-banner{
+    width: 100%;
+    height: 557px;
+    background-image: url('../exemplo/Projeto_01/images/header_bg.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.container-banner .center{
+    height: 100%;
+}
+
+.form{
+    border: rgba(120,120,120,0.5);
+    background-clip: padding-box;
+    border-width: 12px;
+    border-style: solid;
+    padding: 10px;
+    width: 400px;
+    height: calc(100% + 30px);
+    float: right;
+    position: relative;
+    top: -15px;
+    background-color: white;
+}
+
+.form h2{
+    font-weight: normal;
+    color: #999999;
+    font-size: 21px;
+}
+
+.input-container{
+    margin-top: 20px;
+}
+
+.input-container span, .form p{
+    display: inline-block;
+    width: 100%;
+    color: #BBBBBB;
+    font-size: 17px;
+}
+
+.input-container input[type=text]{
+    position: relative;
+    width: 344px;
+    height: 55px;
+    border: 1px solid #ccc;
+    margin-top: 8px;
+    left: -13px;
+}
+
+.form .warning{
+    margin: 20px 0;
+}
+
+.form input[type=submit]{
+    color: white;
+    font-size: 25px;
+    width: 280px;
+    height: 56px;
+    background-color: #363A6D;
+    display: inline-block;
+    border-bottom: 5px solid #4A5097;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    cursor: pointer;
+}
+
+.form .input-submit{
+    text-align: center;
+}
+
+.form input[type=submit]:hover{
+    background-color: #2a2d5c;
+}
+
+.container-list{
+    padding: 30px;
+    float:left;
+    width: 619px;
+    height: 270px;
+    background-color: rgba(33,35,67,0.7);
+    margin-top: 40px;
+}
+
+.container-list ul{
+    list-style-position: inside;
+}
+
+.container-list ul li{
+    color: white;
+    margin-top: 18px;
+    font-size: 19px;
+}
+
+.container-2{
+    padding: 40px 0;
+    background-color: #DDDDDD;
+    text-align: center;
+}
+
+.container-2 p{
+    margin: 15px 0  ;
+    width: 698px;
+    display: inline-block;
+    text-align: justify;
+}
+
+.arrow{
+    margin-left: -20px;
+    width: 40px;
+    height: 40px;
+    background-image: url(../exemplo/Projeto_01/images/arrow.png);
+    background-size: 100% 100%;
+    position: relative;
+    top: 60px;
+    left: 50%;
+}
