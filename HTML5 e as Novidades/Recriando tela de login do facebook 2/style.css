@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato";
+}
+
+.center{
+    max-width: 1100px;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+.clear{clear:both;} 
+
+header{
+    background-color: rgb(72, 72, 195);
+    padding: 8px 0;
+}
+
+.logo{
+    float: left;
+}
+
+.logo h2{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+
+form.form-login{
+    float: right;
+}
+
+.form-login .form-element{
+   display: inline-block;
+    margin-right: 15px;
+}
+
+.form-element p{
+    color: white;
+    font-size: 14px;
+}
+
+.form-element input[type=email],
+.form-element input[type=password]{
+    margin-top: 4px;
+    border: 0;
+    height: 16px;
+    padding-left: 5px;
+}
+
+.form-element input[type=submit]{
+    cursor: pointer;
+    border: 0;
+    background-color: rgb(92, 92, 208);
+    color: white;
+    font-weight: bold;
+    padding: 3px 5px;
+}
+
+.form-element input[type=submit]:hover{
+    background-color: rgb(18, 18, 166);
+}
+
+section.main{
+    background: linear-gradient(white, #D3D8E8);
+    padding: 40px 0;
+}
+
+.img-pessoas{
+    float: left; 
+    width: 70%;
+}
+
+.img-pessoas img{
+max-width: 100%;
+}
+
+.abrir-conta{
+    float: left;
+    width: 30%;
+}
+
+.abrir-conta h2{
+    color: black;
+    font-size: 26px;
+}
+
+.abrir-conta h3{
+    font-size: 19px;
+    color: rgb(30, 30, 30);
+    margin-top: 25px;
+}
+
+.create-account{
+
+}
+
+form.create-account{
+    margin-top: 10px;
+}
+
+.w50{
+    width: 50%;
+    padding: 0 5px;
+    float: left;
+}
+
+.w100{
+    width: 100%;
+    padding: 0 5px;
+    float: left;
+}
+
+form.create-account input{
+    width: 100%;
+}
+
+form.create-account input[type=email],
+form.create-account input[type=text],
+form.create-account input[type=password]{
+     height: 40px;
+     padding-left: 10px;
+     font-size: 20px;
+     border: 1px solid #a5dcff;
+     border-radius: 8px;
+}
+
+form.create-account input[type=submit]{
+    margin-top: 10px;
+    height: 40px;
+    background: linear-gradient(#67ae55, #578843);
+    color: white;
+    cursor: pointer;
+    border: 0;
+    border-radius: 4px;
+    max-width: 200px;
+    font-size: 19px;
+}
+
+form .w100 h2{
+    margin-top: 10px;
+    color: #1d2129;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+form select.nascimento{
+    float: left;
+    margin-top: 5px;
+}
