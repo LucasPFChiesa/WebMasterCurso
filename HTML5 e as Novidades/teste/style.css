@@ -137,6 +137,10 @@ form.create-account input[type=submit]{
     border-radius: 4px;
     max-width: 200px;
     font-size: 19px;
+}background: linear-gradient(#67ae55, #578843);
+
+form.create-account input[type=submit]:hover{
+    background: linear-gradient(#3d732f, #20550c);
 }
 
 form .w100 h2{
@@ -151,16 +155,12 @@ form select.nascimento{
     margin-top: 5px;
 }
 
-.radiobox{
-    margin: 8px 10px;
-    float: left;
-}
+@media screen and (min-width:300px){
+    .center{
+        background-color: red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
-.radiobox h2{
-    display: inline-block;
-}
-
-.radiobox input[type=radio]{
-    width: auto !important;
-    display: inline-block;
 }

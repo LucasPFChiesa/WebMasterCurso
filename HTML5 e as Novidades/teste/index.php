@@ -74,19 +74,6 @@
                             <option value="2">2002</option>
                         </select>
                     </div>
-                    <div class="clear"></div>
-
-                    <div class="w100">
-                        <div class="radiobox">
-                            <input type="radio" name="sexo" value="masculino">
-                            <h2>Masculino</h2>
-                        </div>
-                        <div class="radiobox">
-                            <input type="radio" name="sexo" value="feminino">
-                            <h2>Feminino</h2>
-                        </div>
-                        <div class="clear"></div>
-                    </div>
 
                     <div class="w100">
                         <input type="submit" name="acao" value="Cadastrar">
@@ -102,3 +89,68 @@
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+
+    <meta charset="utf-8" />
+    <meta name="description" content="Descrição do meu site." />
+    <meta name="keywords" content="palavras,separadas,por,virgula" />
+    <meta name="author" content="Guilherme">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0" />
+    <link href="css/style.css" rel="stylesheet" />
+
+-->
